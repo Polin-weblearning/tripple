@@ -25,7 +25,7 @@ const Hero = () => {
             viewport={{ once: false, amount: 0.5 }}
             className="max-w-md mx-auto md:mx-0"
           >
-            <h2 className="bayon-regular text-3xl font-semibold text-white sm:text-3xl">
+            <h2 className="bayon-regular text-3xl font-semibold text-white pt-3 sm:text-3xl">
               មិនពេញនិយមតែCវីល័យ
             </h2>
           </motion.div>
