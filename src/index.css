@@ -1,0 +1,22 @@
+/* src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root {
+  background-color: transparent !important;
+  background: none !important;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+html, body, #root {
+  background-color: transparent !important;
+  /* or use another color if you want */
+  /* background-color: none !important; is invalid CSS */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
