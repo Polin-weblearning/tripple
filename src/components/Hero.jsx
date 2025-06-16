@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 const Hero = () => {
   return (
     <div className="bg-black">
@@ -13,7 +14,7 @@ const Hero = () => {
             viewport={{ once: false, amount: 0.5 }}
             className="max-w-md mx-auto md:mx-0"
           >
-            <h2 className="font-khmer text-2xl font-semibold text-white sm:text-3xl">
+            <h2 className="bayon-regular text-2xl font-semibold text-white sm:text-3xl">
               មិនកាលីបតែទាន់សម័យ
             </h2>
           </motion.div>
@@ -24,7 +25,7 @@ const Hero = () => {
             viewport={{ once: false, amount: 0.5 }}
             className="max-w-md mx-auto md:mx-0"
           >
-            <h2 className="font-khmer text-3xl font-semibold text-white sm:text-3xl">
+            <h2 className="bayon-regular text-3xl font-semibold text-white sm:text-3xl">
               មិនពេញនិយមតែសុីវីល័យ
             </h2>
           </motion.div>
@@ -34,7 +35,7 @@ const Hero = () => {
             transition={{ duration: 0.4 }}
             viewport={{ once: false, amount: 0.5 }}
           >
-            <p className="mt-4 text-white py-4">
+            <p className=" permanent-marker-regular mt-4 text-white py-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               doloremque saepe architecto maiores repudiandae amet perferendis
               repellendus, reprehenderit voluptas sequi.

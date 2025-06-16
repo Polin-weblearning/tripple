@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className='relative container py-4 flex items-center justify-center'>
         
         {/* Logo Always Center */}
-        <div className='text-2xl font-bold absolute left-1/2 transform -translate-x-1/2'>
+        <div className='text-3xl font-bold alfa-slab-one-regular absolute left-1/2 transform -translate-x-1/2'>
           TRIPPLE
         </div>
 

@@ -10,12 +10,12 @@ const About = () => {
 
   return (
     <section className="bg-black">
-      <div className="mx-auto max-w-screen-xl bg-black px-4 py-2 sm:px-6 sm:py-12 lg:px-8">
+      <div className="mx-auto max-w-screen-xl permanent-marker-regular bg-black px-4 py-2 sm:px-6 sm:py-12 lg:px-8">
         <header className="text-center">
           <h2 className="text-xl font-bold text-white sm:text-3xl">
             Product Collection
           </h2>
-          <p className="mx-auto mt-4 max-w-md text-gray-500">
+          <p className="mx-auto permanent-marker-regular mt-4 max-w-md text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </header>
