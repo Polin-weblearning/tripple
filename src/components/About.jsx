@@ -24,10 +24,13 @@ const About = () => {
           {images.map((imgSrc, i) => (
             <motion.li
               key={i}
-                 initial={{ y: -90, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 0.2 }}
-            transition={{ duration: 0.4 }}
-            viewport={{ once: false, amount: 0.5 }}
+              className="group block overflow-hidden  rounded-lg shadow-lg"
+              whileHover={{ scale: 1.3 }}
+              whileTap={{ scale: 0.4 }}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.3 }}
+              transition={{ duration: 0.3, delay: i * 0.1 }}
             >
               <a href="#">
                 <img
