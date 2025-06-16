@@ -25,7 +25,7 @@ const About = () => {
             <motion.li
               key={i}
                  initial={{ y: -90, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
+            whileInView={{ y: 0, opacity: 0.2 }}
             transition={{ duration: 0.4 }}
             viewport={{ once: false, amount: 0.5 }}
             >
