@@ -26,7 +26,7 @@ const Hero = () => {
             className="max-w-md mx-auto md:mx-0"
           >
             <h2 className="bayon-regular text-3xl font-semibold text-white sm:text-3xl">
-              មិនពេញនិយមតែសុីវីល័យ
+              មិនពេញនិយមតែCវីល័យ
             </h2>
           </motion.div>
           <motion.div
